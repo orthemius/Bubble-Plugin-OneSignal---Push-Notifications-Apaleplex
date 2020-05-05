@@ -1,0 +1,25 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Send template to list of users",
+    "fields": {
+        "AEl": {
+            "caption": "List of Users",
+            "doc": "List of users to receive notification",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "users",
+            "rank": 0,
+            "value": "_any_thing"
+        },
+        "AEm": {
+            "caption": "Template ID",
+            "doc": "Notification template ID from OneSignal dashboard",
+            "editor": "DynamicValue",
+            "name": "template_id",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

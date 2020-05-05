@@ -1,0 +1,68 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Send notification by tag filter",
+    "fields": {
+        "AEl": {
+            "caption": "Tag Key",
+            "doc": "Tag key for filter on OneSignal device",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AEm": {
+            "caption": "URL (optional)",
+            "doc": "Destination URL when notification is clicked",
+            "editor": "DynamicValue",
+            "name": "url_destination",
+            "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AEn": {
+            "caption": "Title (optional)",
+            "doc": "Notification title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AEp": {
+            "caption": "Contents",
+            "doc": "Notification content",
+            "editor": "DynamicValue",
+            "name": "contents",
+            "rank": 3,
+            "value": "text"
+        },
+        "AEq": {
+            "caption": "Icon URL (optional)",
+            "doc": "Image URL to use as notification icon ",
+            "editor": "DynamicValue",
+            "name": "icon_image_url",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "AFI": {
+            "caption": "Tag Value",
+            "doc": "Tag value for filter on OneSignal device",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 1,
+            "value": "text"
+        },
+        "AFJ": {
+            "caption": "Filter Relationship",
+            "default_val": "=",
+            "doc": "Filter relationship to determine which users receive notification",
+            "editor": "Dropdown",
+            "name": "relation",
+            "options": ">,<,=,!=",
+            "rank": 2
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

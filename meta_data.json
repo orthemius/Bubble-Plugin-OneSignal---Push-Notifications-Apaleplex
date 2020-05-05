@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "analytics",
+        "1": "productivity",
+        "2": "technical",
+        "3": "media",
+        "4": "news"
+    },
+    "description": "Send engaging web-based push notifications to your users",
+    "image": "//s3.amazonaws.com/appforest_uf/f1576521955939x352932897131946100/onesignal_logo.svg",
+    "license": "open_source",
+    "link": "",
+    "name": "OneSignal - Push Notifications",
+    "plugin_instructions": "For full instructions and troubleshooting, visit https://manual.bubble.io/bubble-made-plugins/onesignal-web-notifications.html"
+}

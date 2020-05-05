@@ -1,0 +1,15 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Delete tag on current user",
+    "fields": {
+        "AFE": {
+            "caption": "Tag Key",
+            "doc": "Tag Key to delete on Current User's OneSignal device",
+            "editor": "DynamicValue",
+            "name": "tag_key",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}

@@ -1,0 +1,24 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Send template to individual",
+    "fields": {
+        "AEl": {
+            "caption": "User",
+            "doc": "User to receive OneSignal notification",
+            "editor": "DynamicValue",
+            "name": "user",
+            "rank": 0,
+            "value": "_any_thing"
+        },
+        "AEm": {
+            "caption": "Template ID",
+            "doc": "Notification template ID from OneSignal dashboard",
+            "editor": "DynamicValue",
+            "name": "template_id",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

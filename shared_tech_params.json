@@ -1,0 +1,21 @@
+{
+    "assets": {
+        "ACd": {
+            "name": "one signal logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1573769677209x323238622829416400/onesignal_logo.svg"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AEi": {
+            "caption": "API Key",
+            "type": "secure"
+        },
+        "AEk": {
+            "caption": "App ID",
+            "type": "secure"
+        }
+    }
+}

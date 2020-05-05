@@ -1,0 +1,52 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Send notification to list of users",
+    "fields": {
+        "AEl": {
+            "caption": "List of Users",
+            "doc": "List of users to receive OneSignal notification",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "users",
+            "rank": 0,
+            "value": "_any_thing"
+        },
+        "AEm": {
+            "caption": "URL (optional)",
+            "doc": "Destination URL when notification is clicked",
+            "editor": "DynamicValue",
+            "name": "url_destination",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AEn": {
+            "caption": "Title (optional)",
+            "doc": "Notification title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AEp": {
+            "caption": "Contents",
+            "doc": "Notification content",
+            "editor": "DynamicValue",
+            "name": "contents",
+            "rank": 1,
+            "value": "text"
+        },
+        "AEq": {
+            "caption": "Icon URL (optional)",
+            "doc": "Image URL to use as notification icon ",
+            "editor": "DynamicValue",
+            "name": "icon_image_url",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

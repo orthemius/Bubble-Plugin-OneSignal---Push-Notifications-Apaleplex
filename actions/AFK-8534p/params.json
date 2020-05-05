@@ -1,0 +1,41 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Send template by tag filter",
+    "fields": {
+        "AEl": {
+            "caption": "Tag Key",
+            "doc": "Tag key for filter on OneSignal device",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AEm": {
+            "caption": "Template ID",
+            "doc": "Notification template ID from OneSignal dashboard",
+            "editor": "DynamicValue",
+            "name": "template_id",
+            "rank": 3,
+            "value": "text"
+        },
+        "AFI": {
+            "caption": "Tag Value",
+            "doc": "Tag key for filter on OneSignal device",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 1,
+            "value": "text"
+        },
+        "AFJ": {
+            "caption": "Filter Relationship",
+            "default_val": "=",
+            "doc": "Filter relationship to determine which users receive notification",
+            "editor": "Dropdown",
+            "name": "relation",
+            "options": ">,<,=,!=",
+            "rank": 2
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}

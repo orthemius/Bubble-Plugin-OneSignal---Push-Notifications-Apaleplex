@@ -1,0 +1,23 @@
+{
+    "category": "plugins",
+    "display": "OneSignal - Set tag on current user",
+    "fields": {
+        "AFC": {
+            "caption": "Tag Key",
+            "doc": "Key to set as Tag on Current User's OneSignal device",
+            "editor": "DynamicValue",
+            "name": "key",
+            "rank": 0,
+            "value": "text"
+        },
+        "AFD": {
+            "caption": "Tag Value",
+            "doc": "Value of Tag on Current User's OneSignal device",
+            "editor": "DynamicValue",
+            "name": "value",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "type": "client_side"
+}
