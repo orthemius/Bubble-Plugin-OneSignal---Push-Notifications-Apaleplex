@@ -6,20 +6,20 @@ function(properties, context) {
     };
     
     var notification = {
-		"app_id": context.keys["App ID"],
-      	"included_segments": [properties.segment],
-        "contents": {"en": properties.contents}
+		app_id: context.keys["App ID"],
+      	included_segments: [properties.segment],
+        contents: {en: properties.contents}
     }
 
     if(properties.title){
-        notification['headings'] = {"en": properties.title};
+        notification.headings = {en: properties.title};
     }
     if(properties.url){
-        notification['url'] = properties.url_destination;
+        notification.url = properties.url_destination;
     }
     if(properties.icon_image_url){
-        notification['small_icon'] = properties.icon_image_url;
-        notification['chrome_web_icon'] = properties.icon_image_url;
+        notification.small_icon = properties.icon_image_url;
+        notification.chrome_web_icon = properties.icon_image_url;
     }
     
 	var options = {
@@ -29,9 +29,6 @@ function(properties, context) {
         url: "https://onesignal.com/api/v1/notifications"
     }
         
-    context.request(options, function(err, res, body){
-        console.log("sent notification");
-        console.log(res);
-    });
+    context.request(options);
 
 }
