@@ -8,8 +8,9 @@
     },
     "description": "Send engaging web-based push notifications to your users",
     "image": "//s3.amazonaws.com/appforest_uf/f1576521955939x352932897131946100/onesignal_logo.svg",
-    "license": "open_source",
+    "license": "private",
     "link": "",
-    "name": "OneSignal - Push Notifications",
-    "plugin_instructions": "For full instructions and troubleshooting, visit https://manual.bubble.io/bubble-made-plugins/onesignal-web-notifications.html"
+    "name": "OneSignal - Push Notifications - Separrated Worker",
+    "plugin_instructions": "For full instructions and troubleshooting, visit https://manual.bubble.io/bubble-made-plugins/onesignal-web-notifications.html",
+    "sa_node_version": 14
 }

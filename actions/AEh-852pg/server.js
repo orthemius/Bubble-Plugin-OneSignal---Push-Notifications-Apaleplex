@@ -14,7 +14,7 @@ function(properties, context) {
     if(properties.title){
         notification.headings = {en: properties.title};
     }
-    if(properties.url){
+    if(properties.url_destination){
         notification.url = properties.url_destination;
     }
     if(properties.icon_image_url){
@@ -28,7 +28,7 @@ function(properties, context) {
         json: notification,
         url: "https://onesignal.com/api/v1/notifications"
     }
-    
+
     context.request(options);
 
 }
