@@ -11,5 +11,6 @@
     "license": "open_source",
     "link": "",
     "name": "OneSignal - Push Notifications",
-    "plugin_instructions": "For full instructions and troubleshooting, visit https://manual.bubble.io/bubble-made-plugins/onesignal-web-notifications.html"
+    "plugin_instructions": "For full instructions and troubleshooting, visit https://manual.bubble.io/bubble-made-plugins/onesignal-web-notifications.html",
+    "sa_node_version": 14
 }
