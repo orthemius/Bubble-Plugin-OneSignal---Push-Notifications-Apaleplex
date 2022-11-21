@@ -1,9 +1,19 @@
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
 <script>
-  window.OneSignal = window.OneSignal || [];
-  OneSignal.push(function() {
-    OneSignal.init({
-      appId: "_*_AppId_*_",
+    var OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+        OneSignal.init({
+            appId:  "_*_App ID_*_",
+            subdomainName:  "_*_Http os.tc_*_",
+            safari_web_id: "_*_Safari Web ID_*_",
+            notifyButton: {
+              enable: false
+            },
+            autoRegister: "false",
+            autoPrompt: "false",
+            httpPermissionRequest: {
+                enable: true
+            }
+       }); 
     });
-  });
 </script>
